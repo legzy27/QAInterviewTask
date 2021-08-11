@@ -1,5 +1,5 @@
 
-** Step Up
+**** Step Up
 
 * Clone the repo
 * cd into the directory
@@ -9,14 +9,7 @@
 
 
 
-
-
-
-
-
-
-
-* Task Two
+** Task Two
 
 Briefly describe how you would approach testing the various parts of the site.
 
