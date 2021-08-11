@@ -3,7 +3,7 @@
 
 * Clone the repo
 * cd into the directory
-* npm i to install necessary dependencies
+* Type `npm i` to install necessary dependencies
 * Type `npm cypress open` to run test
 * Click on the test in cypress window panel runs the test
 * To generate test report type `npm run test`
