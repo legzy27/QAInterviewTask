@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-08-11T22:39:35.789Z",
+    "end": "2021-08-11T22:39:47.777Z",
+    "duration": 11988,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "42b90ee6-22d1-4205-8fd9-49a211543a39",
+      "title": "",
+      "fullFile": "cypress/integration/Tests/TC0_userlogin.spec.js",
+      "file": "cypress/integration/Tests/TC0_userlogin.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6809580a-d3a0-4b02-9995-be87688dcbaa",
+          "title": "user login check detailed profile section loads properly ",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "User login",
+              "fullTitle": "user login check detailed profile section loads properly  User login",
+              "timedOut": null,
+              "duration": 11969,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://platform.hfm.global/intel');\ncy.get('#login-emailInput').type('niyo4real2002@yahoo.com');\ncy.get('#login-password').type('Allstar27!');\ncy.get('#login-submit').click();\ncy.wait(2000); //click on Data Menu tab\ncy.get('[data-testid=navLink-data]').click(); //Type in text and search\ncy.get('[data-testid=globalSearch-input]').type('Blackrock Alternative Advisors (BAA)').type('{enter}');\ncy.wait(2000);\ncy.get('[data-testid=table-row--2072719558] > .sc-gLonrw > :nth-child(1)').click();\ncy.wait(3000); //Check the details profile section loads\ncy.get('[data-testid=overviewPanel-heading]').should('be.visible'); //Close the panel\ncy.get('[data-testid=infoDrawer-closeBtn] > .sc-jSgupP > svg > path').click();",
+              "err": {},
+              "uuid": "1a97dd8f-27e5-4ab5-802a-1b96c2c2487b",
+              "parentUUID": "6809580a-d3a0-4b02-9995-be87688dcbaa",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1a97dd8f-27e5-4ab5-802a-1b96c2c2487b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 11969,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

@@ -1,15 +1,20 @@
 
+<<<<<<< HEAD
 # Run Test
+=======
+**** Step Up
+>>>>>>> 2e44dd245a841bbafb4fb968820de52bc9d06301
 
 * Clone the repo
 * cd into the directory
 * npm i to install necessary dependencies
 * Type `npm cypress open` to run test
 * Click on the test in cypress window panel runs the test
-* To generate test report type `npm run test`
+* To generate test report - type `npm run test`
 
 
 
+<<<<<<< HEAD
 
 # Task Two
 
@@ -23,6 +28,9 @@ How to Test Frontend ReactJS App, Graphql, Elasticsearch and Database
   End to End(E2E) functional tests with cypress automated test tool.
 
 # Test Graphql Query
+=======
+** Task Two
+>>>>>>> 2e44dd245a841bbafb4fb968820de52bc9d06301
 
 Firstly, convert the GraphQL query into Stringified JSON format.
 Secondly, pass the converted String as Body parameters to the Request.
